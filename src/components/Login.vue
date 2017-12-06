@@ -14,7 +14,7 @@
         </div>
         <button class="btn btn-primary" form="login" type="submit">Login</button>
       </form>
-      <h4 class="mx-auto">OR<h4>
+      <h4 class="mx-auto">OR</h4>
       <a href="/auth/github" class="btn btn-github">
         <i class="fa fa-github"></i> Login with Github
       </a>
@@ -27,9 +27,6 @@
   </div>
 </template>
 
-
-<!-- added button colors to match toro net and Github
--->
 <style scoped>
 .btn-github {
   border: 0;
@@ -53,7 +50,7 @@ export default {
           // eslint-disable-next-line
           document.querySelector('#login').submit()
           return
-        } 
+        }
       })
     }
   },
